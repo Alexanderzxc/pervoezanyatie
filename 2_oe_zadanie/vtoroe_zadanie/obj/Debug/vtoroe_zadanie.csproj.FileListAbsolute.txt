@@ -1,0 +1,11 @@
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\bin\Debug\vtoroe_zadanie.exe.config
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\bin\Debug\vtoroe_zadanie.exe
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\bin\Debug\vtoroe_zadanie.pdb
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.csproj.AssemblyReference.cache
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.csproj.SuggestedBindingRedirects.cache
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.Properties.Resources.resources
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.csproj.GenerateResource.cache
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.csproj.CoreCompileInputs.cache
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.exe
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.pdb
+E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.Form1.resources
