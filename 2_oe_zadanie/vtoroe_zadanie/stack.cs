@@ -10,11 +10,13 @@ namespace vtoroe_zadanie
     {
         private int currentindex;
         private int[] mystack;
+        private bool reverse=false;
 
         public int[] mass
         {
             get { return mystack; }
         }
+        
         public stack(int razmer)
         {
             mystack = new int[razmer];
@@ -37,18 +39,32 @@ namespace vtoroe_zadanie
             }
         }
         
-        public int pop()
+        public void pop()
         {
-            var last = mystack[currentindex - 1];
-            mystack[currentindex - 1] = 0;
-            currentindex -= 1;
-            return last;
+            if (currentindex >=1)
+            {
+                var last = mystack[currentindex - 1];
+                mystack[currentindex - 1] = 0;
+                currentindex -= 1;
+            }
+            else
+            {
+                MessageBox.Show("массив пустой");
+            }
+            
         }
 
-        public int peek()
+        public void peek(Label label)
         {
-            var last = mystack[currentindex-1];
-            return last;
+            if (currentindex >= 1)
+            {
+                var last = mystack[currentindex-1];
+                label.Text = Convert.ToString(last);
+            }
+            else
+            {
+                label.Text = "Массив пустой";
+            }
         }
 
         public void Values(ListBox listBox)
@@ -57,6 +73,29 @@ namespace vtoroe_zadanie
             foreach (var VARIABLE in mystack)
             {
                 listBox.Items.Add(VARIABLE);
+            }
+        }
+
+        public void Reverse(ListBox listBox)
+        {
+            listBox.Items.Clear();
+            if (reverse == false)
+            {
+                for (int i = mystack.Length - 1; i >= 0; i--)
+                {
+                    listBox.Items.Add(mystack[i]);
+                }
+
+                reverse = true;
+            }
+            else
+            {
+                foreach (var VARIABLE in mystack)
+                {
+                    listBox.Items.Add(VARIABLE);
+                }
+
+                reverse = false;
             }
         }
         

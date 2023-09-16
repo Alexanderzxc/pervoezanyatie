@@ -17,12 +17,6 @@ namespace vtoroe_zadanie
         public Form1()
         {
             InitializeComponent();
-            stack1 = new stack(Convert.ToInt32(textBox1.Text));
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            stack1.Values(listBox1);
         }
 
         private void button2_Click_1(object sender, EventArgs e)
@@ -34,14 +28,32 @@ namespace vtoroe_zadanie
 
         private void button3_Click(object sender, EventArgs e)
         {
-            top_num.Text=Convert.ToString(stack1.pop());
+            stack1.peek(top_num);
+            stack1.pop();
             stack1.Values(listBox1);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            top_num.Text = Convert.ToString(stack1.peek());
+            stack1.peek(top_num);
             stack1.Values(listBox1);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            stack1.Reverse(listBox1);
+            
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            stack1 = new stack(Convert.ToInt32(textBox1.Text));
+            stack1.Values(listBox1);
+        }
+
+        private void button6_MouseClick(object sender, MouseEventArgs e)
+        {
+            
         }
     }
 }
