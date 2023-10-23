@@ -7,12 +7,12 @@ using System.Windows.Forms.VisualStyles;
 
 namespace WindowsFormsApp2
 {
-    public class mList
+    public class mList : IEnumerable
     {
         private int Length;
         private extraINT[] list;
-        private extraINT Last;
-        private extraINT First;
+        private extraINT Next;
+        private extraINT Prev;
         private int sort_method;
         
 
@@ -24,14 +24,33 @@ namespace WindowsFormsApp2
             set { sort_method = value; }
         }
         
-        public extraINT last
+        public extraINT next
         {
-            get { return list[list.Length]; }
+            get {
+                try
+                {
+                    return list[Length + 1];
+                }
+                catch
+                {
+                    return null;
+                }
+            }
         }
-        
-        public extraINT first
+
+        public extraINT prev
         {
-            get { return list[0]; }
+            get
+            {
+                if (Length >= 1)
+                {
+                    return list[Length - 1];
+                }
+                else
+                {
+                    return null;
+                }
+            }
         }
         
         public mList(int length)
@@ -196,6 +215,62 @@ namespace WindowsFormsApp2
             }
             Visualize(listBox1,listBox2,listBox3,list,Length);
         }
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+
+        public mListEnum GetEnumerator()
+        {
+            return new mListEnum(list);
+        }
         
     }
+    public class mListEnum : IEnumerator
+    {
+
+        public extraINT[] _data;
+        private int position = -1; 
+        public mListEnum(extraINT[] list)
+        {
+            _data = list;
+        }
+        
+
+        public bool MoveNext()
+        {
+            position++;
+            return (position < _data.Length);
+        }
+
+        public void Reset()
+        {
+            position = -1;
+        }
+        
+        object IEnumerator.Current
+        {
+            get
+            {
+                return Current;
+            }
+        }
+        public extraINT Current
+        {
+            get
+            {
+                try
+                {
+                    return _data[position];
+                }
+                catch (IndexOutOfRangeException)
+                {
+                    throw new InvalidOperationException();
+                }
+            }
+        }
+        
+    }
+
+    
 }
