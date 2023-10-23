@@ -1,0 +1,11 @@
+E:\c# pro100\VectorPro\VectorPro\bin\Debug\VectorPro.exe.config
+E:\c# pro100\VectorPro\VectorPro\bin\Debug\VectorPro.exe
+E:\c# pro100\VectorPro\VectorPro\bin\Debug\VectorPro.pdb
+E:\c# pro100\VectorPro\VectorPro\obj\Debug\VectorPro.csproj.AssemblyReference.cache
+E:\c# pro100\VectorPro\VectorPro\obj\Debug\VectorPro.csproj.SuggestedBindingRedirects.cache
+E:\c# pro100\VectorPro\VectorPro\obj\Debug\VectorPro.Properties.Resources.resources
+E:\c# pro100\VectorPro\VectorPro\obj\Debug\VectorPro.csproj.GenerateResource.cache
+E:\c# pro100\VectorPro\VectorPro\obj\Debug\VectorPro.csproj.CoreCompileInputs.cache
+E:\c# pro100\VectorPro\VectorPro\obj\Debug\VectorPro.exe
+E:\c# pro100\VectorPro\VectorPro\obj\Debug\VectorPro.pdb
+E:\c# pro100\VectorPro\VectorPro\obj\Debug\VectorPro.Form1.resources
