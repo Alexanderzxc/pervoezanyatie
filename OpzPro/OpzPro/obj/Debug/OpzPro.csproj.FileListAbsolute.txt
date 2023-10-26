@@ -1,0 +1,11 @@
+E:\c# pro100\OpzPro\OpzPro\bin\Debug\OpzPro.exe.config
+E:\c# pro100\OpzPro\OpzPro\bin\Debug\OpzPro.exe
+E:\c# pro100\OpzPro\OpzPro\bin\Debug\OpzPro.pdb
+E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.csproj.AssemblyReference.cache
+E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.csproj.SuggestedBindingRedirects.cache
+E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.Properties.Resources.resources
+E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.csproj.GenerateResource.cache
+E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.csproj.CoreCompileInputs.cache
+E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.exe
+E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.pdb
+E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.Form1.resources
