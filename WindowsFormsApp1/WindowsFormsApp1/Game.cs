@@ -15,10 +15,11 @@ namespace WindowsFormsApp1
         public Stack<Disk> disks
         {
             get { return Stack; }
+            set { Stack=value; }
         }
 
 
-        public Game(Graphics g, int number)
+        public Game(int number)
         {
             Stack = new Stack<Disk>();
             this.number = number;
@@ -28,7 +29,6 @@ namespace WindowsFormsApp1
         {
             Stack.Push(disk);
         }
-
         
 
 

@@ -34,7 +34,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.top_num = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -91,15 +90,6 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(3, 171);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(130, 58);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Верхний элемент";
-            // 
             // top_num
             // 
             this.top_num.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -152,7 +142,6 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.top_num);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
@@ -170,7 +159,6 @@
 
         private System.Windows.Forms.Button button4;
 
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label top_num;
 
         private System.Windows.Forms.Button button3;

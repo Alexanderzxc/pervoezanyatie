@@ -8,10 +8,15 @@ public class RPN
 {
     private string input;
     private string output;
-
+    public string infixExpr { get; private set; }
+    public string postfixExpr { get; private set; }
+    
+    
     public RPN(string inp)
     {
         input = inp;
+        infixExpr = inp;
+        postfixExpr = ToPostfix(infixExpr + "\r");
     }
     public double Calculate()
     {
@@ -22,7 +27,6 @@ public class RPN
     
     private void GetExpression()
     { 
-   //     Stack<char> operStack = new Stack<char>();
 
         stack<char> operStack = new stack<char>(1000);
 
@@ -146,10 +150,6 @@ public class RPN
         return false;
     }
     
-    public class RPNGod
-    {
-        public string infixExpr { get; private set; }
-        public string postfixExpr { get; private set; }
 
         private Dictionary<char, int> operationPriority = new Dictionary<char, int>()
         {
@@ -161,12 +161,7 @@ public class RPN
             { '^', 3 },
             { '~', 4 },
         };
-
-        public RPNGod(string expression)
-        {
-            infixExpr = expression;
-            postfixExpr = ToPostfix(infixExpr + "\r");
-        }
+        
 
         private string GetStringNumber(string expr, ref int pos)
         {
@@ -240,6 +235,6 @@ public class RPN
         
         
     }
-}
+
 
 

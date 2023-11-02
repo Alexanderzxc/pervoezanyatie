@@ -28,21 +28,19 @@ namespace vtoroe_zadanie
 
         private void button3_Click(object sender, EventArgs e)
         {
-            stack1.peek(top_num);
             stack1.pop();
             stack1.Values(listBox1);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            stack1.peek(top_num);
-            stack1.Values(listBox1);
+            top_num.Text=stack1.peek();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            stack1.Reverse(listBox1);
-            
+            stack1.Reverse();
+            stack1.Values(listBox1);
         }
 
         private void button6_Click(object sender, EventArgs e)

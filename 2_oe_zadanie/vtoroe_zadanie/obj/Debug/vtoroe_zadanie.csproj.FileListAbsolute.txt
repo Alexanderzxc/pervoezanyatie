@@ -9,3 +9,14 @@ E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.csproj.CoreC
 E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.exe
 E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.pdb
 E:\c# pro100\vtoroe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.Form1.resources
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\bin\Debug\vtoroe_zadanie.exe.config
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\bin\Debug\vtoroe_zadanie.exe
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\bin\Debug\vtoroe_zadanie.pdb
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.csproj.AssemblyReference.cache
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.csproj.SuggestedBindingRedirects.cache
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.Form1.resources
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.Properties.Resources.resources
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.csproj.GenerateResource.cache
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.csproj.CoreCompileInputs.cache
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.exe
+E:\github\pervoezanyatie\2_oe_zadanie\vtoroe_zadanie\obj\Debug\vtoroe_zadanie.pdb
