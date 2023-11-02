@@ -9,3 +9,14 @@ E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.csproj.CoreCompileInputs.cache
 E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.exe
 E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.pdb
 E:\c# pro100\OpzPro\OpzPro\obj\Debug\OpzPro.Form1.resources
+E:\github\pervoezanyatie\OpzPro\OpzPro\bin\Debug\OpzPro.exe.config
+E:\github\pervoezanyatie\OpzPro\OpzPro\bin\Debug\OpzPro.exe
+E:\github\pervoezanyatie\OpzPro\OpzPro\bin\Debug\OpzPro.pdb
+E:\github\pervoezanyatie\OpzPro\OpzPro\obj\Debug\OpzPro.csproj.AssemblyReference.cache
+E:\github\pervoezanyatie\OpzPro\OpzPro\obj\Debug\OpzPro.csproj.SuggestedBindingRedirects.cache
+E:\github\pervoezanyatie\OpzPro\OpzPro\obj\Debug\OpzPro.Form1.resources
+E:\github\pervoezanyatie\OpzPro\OpzPro\obj\Debug\OpzPro.Properties.Resources.resources
+E:\github\pervoezanyatie\OpzPro\OpzPro\obj\Debug\OpzPro.csproj.GenerateResource.cache
+E:\github\pervoezanyatie\OpzPro\OpzPro\obj\Debug\OpzPro.csproj.CoreCompileInputs.cache
+E:\github\pervoezanyatie\OpzPro\OpzPro\obj\Debug\OpzPro.exe
+E:\github\pervoezanyatie\OpzPro\OpzPro\obj\Debug\OpzPro.pdb

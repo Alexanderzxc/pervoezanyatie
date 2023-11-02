@@ -12,6 +12,7 @@
         <FileAlignment>512</FileAlignment>
         <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
         <Deterministic>true</Deterministic>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -55,6 +56,7 @@
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="RPN.cs" />
+        <Compile Include="StackPro.cs" />
         <EmbeddedResource Include="Form1.resx">
           <DependentUpon>Form1.cs</DependentUpon>
         </EmbeddedResource>

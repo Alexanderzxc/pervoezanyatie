@@ -23,6 +23,14 @@ namespace OpzPro
         {
             RPN rpn = new RPN(textBox1.Text);
             label1.Text = Convert.ToString(rpn.Calculate());
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            RPN.RPNGod rpn = new RPN.RPNGod(textBox2.Text);
+            label2.Text = Convert.ToString(rpn.postfixExpr);
+            
         }
     }
 }
