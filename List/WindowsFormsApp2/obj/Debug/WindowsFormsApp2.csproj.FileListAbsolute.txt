@@ -9,3 +9,14 @@ E:\c# pro100\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj
 E:\c# pro100\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 E:\c# pro100\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
 E:\c# pro100\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+E:\github\pervoezanyatie\List\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+E:\github\pervoezanyatie\List\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+E:\github\pervoezanyatie\List\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+E:\github\pervoezanyatie\List\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+E:\github\pervoezanyatie\List\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.SuggestedBindingRedirects.cache
+E:\github\pervoezanyatie\List\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+E:\github\pervoezanyatie\List\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+E:\github\pervoezanyatie\List\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+E:\github\pervoezanyatie\List\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+E:\github\pervoezanyatie\List\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+E:\github\pervoezanyatie\List\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb

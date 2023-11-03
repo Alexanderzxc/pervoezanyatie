@@ -45,14 +45,36 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            mylist.Append(listBox1,listBox2,listBox3);
+            extraINT value = new extraINT();
+            value.id = Convert.ToInt32(textBox4.Text);
+            value.str = textBox5.Text;
+            if (checkBox1.Checked)
+            {
+                value.boolean = true;
+            }
+            else
+            {
+                value.boolean = false;
+            }
+            mylist.Append(listBox1,listBox2,listBox3, value);
         }
 
         private void PrependButton_Click(object sender, EventArgs e)
         {
             try
             {
-                mylist.Prepend(listBox1,listBox2,listBox3);
+                extraINT value = new extraINT();
+                value.id = Convert.ToInt32(textBox4.Text);
+                value.str = textBox5.Text;
+                if (checkBox1.Checked)
+                {
+                    value.boolean = true;
+                }
+                else
+                {
+                    value.boolean = false;
+                }
+                mylist.Prepend(listBox1,listBox2,listBox3, value);
             }
             catch (Exception exception)
             {

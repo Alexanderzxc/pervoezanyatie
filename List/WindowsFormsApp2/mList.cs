@@ -73,25 +73,23 @@ namespace WindowsFormsApp2
             }
         }
 
-        public void Prepend(ListBox listBox1, ListBox listBox2, ListBox listBox3)
+        public void Prepend(ListBox listBox1, ListBox listBox2, ListBox listBox3, extraINT value)
         {
             
-            extraINT new_ele = new extraINT();
             for (int i = Length; i >0; i--)
             {
                 list[i] = list[i - 1];
             }
 
             Length++;
-            list[0] = new_ele;
+            list[0] = value;
             Visualize(listBox1,listBox2,listBox3,list,Length);
             
         }
 
-        public void Append(ListBox listBox1, ListBox listBox2, ListBox listBox3)
+        public void Append(ListBox listBox1, ListBox listBox2, ListBox listBox3, extraINT value)
         {
-            extraINT new_ele = new extraINT();
-            list[Length] = new_ele;
+            list[Length] = value;
             Length++;
             Visualize(listBox1,listBox2,listBox3,list,Length);
         }
